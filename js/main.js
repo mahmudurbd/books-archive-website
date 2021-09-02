@@ -31,7 +31,6 @@ const resultShowText = document.getElementById('result-show-text');
 
 // Display Books Function
 const displayBook = (books) => {
-    searchNumber.innerText = books.length;
     // clear previouus data
     bookContainer.textContent = '';
     books.forEach(book => {
